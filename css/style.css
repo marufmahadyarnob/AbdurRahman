@@ -10,12 +10,23 @@ body {
 }
 
 /* Header */
-header {
-  background: #222;
+header.hero {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+    url("../img/profile.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   color: white;
   text-align: center;
-  padding: 40px 15px;
+  padding: 60px 15px;
 }
+
 
 .profile {
   width: 120px;
